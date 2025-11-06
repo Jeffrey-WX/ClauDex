@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "codex": {
+      "command": "node",
+      "args": [
+        "/absolute/path/to/codex-mcp/dist/index.js"
+      ],
+      "env": {
+        "OPENAI_API_KEY": "team-7662cbf55d25ae86d15d8d00de41b3d4a1e84a43945c6192",
+        "MAX_BACKUP_DAYS": "7",
+        "MAX_BACKUPS": "50",
+        "COMMAND_TIMEOUT_MS": "60000"
+      }
+    }
+  }
+}

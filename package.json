@@ -1,0 +1,36 @@
+{
+  "name": "codex-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server connecting Claude Code with local Codex CLI for collaborative AI-powered coding. Enables Claude to delegate implementation tasks to Codex while maintaining analysis control.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "test": "echo \"Tests coming soon\" && exit 0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "codex",
+    "cli",
+    "automation",
+    "claude-code",
+    "ai-collaboration",
+    "code-generation",
+    "collaborative-mode",
+    "typescript",
+    "codex-cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "glob": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
